@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >\
+    		
+     <ListPreference 
+         android:title="是否加载图片"
+         android:summary="可新闻列表是否加载图片"
+         android:key="read_model"
+         android:entries="@array/show_bitmap_key"
+         android:entryValues="@array/show_bitmap_value"
+         android:dialogTitle="是否加载图片"
+         android:defaultValue="2"
+         />
+</PreferenceScreen>
